@@ -614,13 +614,6 @@ public class Board
 }
 
 
-
-/**
- * Write a description of class Banqi here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Piece
 {
     private String color;
@@ -670,12 +663,7 @@ public class Piece
     }
 }
 
-/**
- * Write a description of class General here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class General extends Piece
 {
   private int priority;
@@ -707,12 +695,7 @@ public class General extends Piece
   }
 }
 
-/**
- * Write a description of class Guard here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Guard extends Piece
 {
   private int priority;
@@ -733,12 +716,7 @@ public class Guard extends Piece
   }
 }
 
-/**
- * Write a description of class Elephnat here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Elephant extends Piece
 {
   private int priority;
@@ -759,12 +737,7 @@ public class Elephant extends Piece
   }
 }
 
-/**
- * Write a description of class Chariot here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Chariot extends Piece
 {
   private int priority;
@@ -785,12 +758,7 @@ public class Chariot extends Piece
   }
 }
 
-/**
- * Write a description of class Horse here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Horse extends Piece
 {
   private int priority;
@@ -811,12 +779,7 @@ public class Horse extends Piece
   }
 }
 
-/**
- * Write a description of class Cannon here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Cannon extends Piece
 {
   private int priority;
@@ -891,12 +854,7 @@ public class Cannon extends Piece
 }
 
 
-/**
- * Write a description of class Pawn here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Pawn extends Piece
 {
   private int priority;
